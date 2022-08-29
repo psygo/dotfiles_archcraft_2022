@@ -1,0 +1,16 @@
+[user]
+	name = Philippe Fanaro
+	email = philippefanaro@gmail.com
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential]
+	helper = 
+	helper = /usr/share/git-credential-manager-core/git-credential-manager-core
+	credentialStore = gpg
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[alias]
+    cmp = "!f() { git add -A && git commit -m \"$@\" && git push;  }; f"
