@@ -1,0 +1,19 @@
+"^brave-browser$"
+    None, Up, Button4, 3
+    None, Down, Button5, 3
+
+"^firefox$"
+    None, Up, Button4, 4
+    None, Down, Button5, 4
+
+"^qutebrowser$"
+    None, Up, Button4, 4
+    None, Down, Button5, 4
+
+"^spotify$"
+    None, Up, Button4, 4
+    None, Down, Button5, 4
+
+"^code$"
+    None, Up, Button4, 4
+    None, Down, Button5, 4
