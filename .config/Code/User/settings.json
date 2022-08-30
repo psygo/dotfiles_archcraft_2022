@@ -1,0 +1,261 @@
+{
+    // ***********
+    // ** PATHS **
+    // ***********
+    "python.pythonPath": "C:\\Program Files\\Python38\\python.exe",
+    // ************
+    // ** THEMES **
+    // ************
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "editor.background": "#282A36", // Dracula
+            "tab.activeBorderTop": "#0A84FF", // Emulating Firefox's
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    // ************
+    // ** EDITOR **
+    // ************
+    //"files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.largeFileOptimizations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.renderCharacters": false,
+    "terminal.integrated.fontSize": 14.5,
+    "window.restoreWindows": "none",
+    "workbench.activityBar.visible": false,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.minimap.maxColumn": 60,
+    "files.eol": "\r\n",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.openFilesInNewWindow": "on",
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[powershell]": {
+        "editor.tabSize": 2
+    },
+    "explorer.autoReveal": false,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "search.smartCase": true,
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "breadcrumbs.enabled": false,
+    // ************
+    // ** MACROS **
+    // ************
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.copyPasteTerminalAndFocus",
+            "sequence": [
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "${selectedText}\u000D"
+                    } // `\u000D` = Return
+                },
+                "workbench.action.terminal.focus"
+            ]
+        },
+        {
+            "command": "multicommand.hotReloadCustomShortcut",
+            "sequence": [
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "r"
+                    }
+                },
+            ]
+        },
+        {
+            "command": "multiCommand.closeAllEditorsAndLayoutThreeColumns",
+            "sequence": [
+                {
+                    "command": "workbench.action.closeAllEditors"
+                },
+                {
+                    "command": "workbench.action.editorLayoutThreeColumns"
+                }
+            ]
+        }
+    ],
+    // **************
+    // ** MARKDOWN **
+    // **************
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        },
+        "MD009": false,
+        "MD012": false,
+        "MD024": false,
+        "MD025": false,
+        "MD026": false,
+        "MD028": false,
+        "MD031": false,
+        "MD032": false,
+        "MD033": false,
+        "MD041": false,
+        "MD047": false,
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.orderedList.marker": "one",
+    "markdown.extension.print.theme": "dark",
+    // "markdown.extension.toc.levels": "2..6",
+    // ********************
+    // ** DART | FLUTTER **
+    // ********************
+    "files.exclude": {
+        "**/build": true,
+        "**/.dart_tool": true,
+        "**/.flutter-plugins": true,
+        "**/.flutter-plugins-dependencies": true,
+        "**/generated_plugin_registrant.dart": true,
+        "**/.git": true,
+        "**/.idea": true,
+        "**/.metadata": true,
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        "**/.packages": true,
+        "**/pubspec.lock": true,
+    },
+    "dart.lineLength": 100,
+    // ***********
+    // ** LATEX **
+    // ***********
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    // ************
+    // ** OTHERS **
+    // ************
+    "liveServer.settings.donotShowInfoMsg": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "gitlens.menus": false,
+    "python.languageServer": "Default",
+    "files.associations": {
+        ".yml": "yaml",
+        "*.sass": "sass"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "workbench.statusBar.visible": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "python.showStartPage": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "z",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.useSystemClipboard": true,
+    "dart.previewLsp": true,
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "dart.openDevTools": "flutter",
+    "npm.keybindingsChangedWarningShown": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    },
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        }
+    ],
+    "editor.lineNumbers": "on",
+    "workbench.layoutControl.enabled": false,
+    "vim.foldfix": true,
+    "keyboard.dispatch": "keyCode",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    // "vscode_custom_css.imports": ["
+    //     .container > .title {
+    //         display: none !important;
+    //     }
+    // "]
+    "window.menuBarVisibility": "hidden"
+    },
