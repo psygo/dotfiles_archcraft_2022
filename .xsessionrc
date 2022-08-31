@@ -2,7 +2,7 @@ xset r rate 300 40
 xset s off
 xset -dpms
 imwheel
+xmodmap ~/.Xmodmap
 
 pacman -Sy &
 qbittorrent &
-xmodmap ~/.Xmodmap
