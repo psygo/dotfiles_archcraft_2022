@@ -3,6 +3,8 @@ xset s off
 xset -dpms
 imwheel
 xmodmap ~/.Xmodmap
+numlockx off
 
 pacman -Sy &
 qbittorrent &
+# brave &
