@@ -174,6 +174,12 @@ exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/brave'
 exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/code'
 exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/code'
 
+# Resizing
+bindsym $mod+Ctrl+Right resize shrink width 1 px or 1 ppt
+bindsym $mod+Ctrl+Up resize grow height 1 px or 1 ppt
+bindsym $mod+Ctrl+Down resize shrink height 1 px or 1 ppt
+bindsym $mod+Ctrl+Left resize grow width 1 px or 1 ppt
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
