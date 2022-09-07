@@ -5,6 +5,7 @@ imwheel
 xmodmap ~/.Xmodmap
 numlockx off
 
+yay -Sy
 sudo pacman -Sy &
 qbittorrent &
 # brave &
