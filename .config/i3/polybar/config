@@ -137,9 +137,9 @@ font-4 = "archcraft:size=14;4"
 ;   modules-right = ipc clock
 
 # Default
-modules-left = menu dot LD i3 RD
+modules-left = LD i3 RD
 modules-center = 
-modules-right = dot LD date RD dot sysmenu
+modules-right = LD date RD dot sysmenu
 
 # Alternate
 ;modules-left = openbox 2LD cpu 3LD memory 4LD filesystem 5LD

@@ -15,5 +15,5 @@
     None, Down, Button5, 4
 
 "^code$"
-    None, Up, Button4, 4
-    None, Down, Button5, 4
+    None, Up, Button4, 1
+    None, Down, Button5, 1
