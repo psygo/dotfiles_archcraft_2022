@@ -284,8 +284,8 @@ mode "$mode_gaps" {
 bindsym $mod+Shift+g mode "$mode_gaps"
 
 ##-- Workspace Rules ------------------------
-assign [class="Lxappearance|Nitrogen"] 6
-assign [class="Pavucontrol|Xfce4-power-manager-settings"] 6
+# assign [class="Lxappearance|Nitrogen"] 6
+# assign [class="Pavucontrol|Xfce4-power-manager-settings"] 6
 
 ##-- Window Rules ------------------------
 for_window [window_role="pop-up"] floating enable
