@@ -169,10 +169,9 @@ set $ws9 "9"
 set $ws10 "10"
 
 # On startup
-exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/obsidian'
-exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/brave'
-exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/code'
-exec --no-startup-id i3-msg 'workspace 4; exec /usr/bin/code'
+exec --no-startup-id i3-msg 'workspace $ws1; exec /usr/bin/obsidian'
+exec --no-startup-id i3-msg 'workspace $ws1; exec /usr/bin/brave'
+exec --no-startup-id i3-msg 'workspace $ws3; exec /usr/bin/code'
 
 # Resizing
 bindsym $mod+Ctrl+Right resize shrink width 1 px or 1 ppt

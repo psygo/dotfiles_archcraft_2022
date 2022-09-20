@@ -257,5 +257,6 @@
     //         display: none !important;
     //     }
     // "]
-    "window.menuBarVisibility": "hidden"
-    },
+    "window.menuBarVisibility": "hidden",
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+},
