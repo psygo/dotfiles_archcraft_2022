@@ -78,6 +78,9 @@
     },
     // *************************************************************************
     // 3. Live Sass
+    "gitlens.menus": false,
+    // *************************************************************************
+    // 4. Live Sass
     "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.formats": [
         {
@@ -88,10 +91,10 @@
         }
     ],
     // *************************************************************************
-    // 4. Live Server
+    // 5. Live Server
     "liveServer.settings.donotShowInfoMsg": true,
     // *************************************************************************
-    // 5. Neovim
+    // 6. Neovim
     "keyboard.dispatch": "keyCode",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim"
     // *************************************************************************
