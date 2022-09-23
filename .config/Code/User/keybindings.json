@@ -185,5 +185,14 @@
         "key": "ctrl+k ctrl+k",
         "command": "-editor.action.defineKeybinding",
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'jsonc'"
+    },
+    {
+        "key": "alt+b",
+        "command": "-gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.toggleMenuBar"
     }
 ]
