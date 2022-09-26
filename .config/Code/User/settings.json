@@ -36,7 +36,6 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "window.menuBarVisibility": "hidden",
     "workbench.layoutControl.enabled": false,
     "extensions.ignoreRecommendations": false,
     "search.smartCase": true,
@@ -96,6 +95,8 @@
     // *************************************************************************
     // 6. Neovim
     "keyboard.dispatch": "keyCode",
-    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim"
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": -1
     // *************************************************************************
 }
