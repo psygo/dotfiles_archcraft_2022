@@ -7,6 +7,9 @@
 set $mod Mod4
 set $alt Mod1
 
+bindsym $mod+b 			exec --no-startup-id "sh ~/scripts/us_kbd.sh"
+bindsym $mod+n 			exec --no-startup-id "sh ~/scripts/us_intl_kbd.sh"
+
 ##-- Fonts (Global) ----------------------
 font pango:JetBrains Mono Medium 10
 
@@ -65,7 +68,7 @@ bindsym $alt+Control+b 			exec --no-startup-id "alacritty --config-file ~/.confi
 
 # -- Rofi --
 bindsym $alt+F1 				exec --no-startup-id ~/.config/i3/rofi/bin/launcher
-bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
+# bindsym $mod+n 					exec --no-startup-id ~/.config/i3/rofi/bin/network_menu
 bindsym $mod+x 					exec --no-startup-id ~/.config/i3/rofi/bin/powermenu
 bindsym $mod+m 					exec --no-startup-id ~/.config/i3/rofi/bin/mpd
 bindsym $mod+s 					exec --no-startup-id ~/.config/i3/rofi/bin/screenshot
