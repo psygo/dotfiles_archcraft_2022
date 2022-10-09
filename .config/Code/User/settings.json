@@ -42,6 +42,8 @@
     "editor.minimap.enabled": false,
     "workbench.editor.pinnedTabSizing": "compact",
     "breadcrumbs.enabled": false,
+    "window.zoomLevel": -1,
+    "window.menuBarVisibility": "hidden",
     // *************************************************************************
     // 2. Languages
     "[javascript]": {
@@ -96,7 +98,7 @@
     // 6. Neovim
     "keyboard.dispatch": "keyCode",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": -1
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always"
     // *************************************************************************
 }
