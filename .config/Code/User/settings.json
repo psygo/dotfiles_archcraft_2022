@@ -99,6 +99,6 @@
     "keyboard.dispatch": "keyCode",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
     // *************************************************************************
 }
