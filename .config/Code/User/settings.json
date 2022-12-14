@@ -42,8 +42,6 @@
     "editor.minimap.enabled": false,
     "workbench.editor.pinnedTabSizing": "compact",
     "breadcrumbs.enabled": false,
-    "window.zoomLevel": -1,
-    "window.menuBarVisibility": "toggle",
     // *************************************************************************
     // 2. Languages
     "[css]": {
@@ -114,5 +112,6 @@
     "keyboard.dispatch": "keyCode",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "redhat.telemetry.enabled": false,
+    "window.menuBarVisibility": "toggle",
     // *************************************************************************
 }
