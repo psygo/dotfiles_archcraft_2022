@@ -48,6 +48,15 @@
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -112,6 +121,18 @@
     "keyboard.dispatch": "keyCode",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "redhat.telemetry.enabled": false,
+    "dart.flutterSdkPath": "/home/philippe/flutter",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0.3,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
     "window.menuBarVisibility": "toggle",
     // *************************************************************************
 }
