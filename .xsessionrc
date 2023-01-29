@@ -7,5 +7,3 @@ imwheel
 setxkbmap us
 xmodmap ~/.Xmodmap
 numlockx off
-
-qbittorrent &
