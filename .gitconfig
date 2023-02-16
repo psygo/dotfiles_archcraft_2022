@@ -16,4 +16,4 @@
 	cmp = "!f() { git add -A && git commit -m \"$@\" && git push;  }; f"
 	cm = "!f() { git add -A && git commit -m \"$@\";  }; f"
 [core]
-	editor = neovim
+	editor = vim
