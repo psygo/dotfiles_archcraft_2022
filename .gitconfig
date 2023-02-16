@@ -13,5 +13,7 @@
 [credential "https://dev.azure.com"]
 	useHttpPath = true
 [alias]
-    cmp = "!f() { git add -A && git commit -m \"$@\" && git push;  }; f"
-    cm = "!f() { git add -A && git commit -m \"$@\";  }; f"
+	cmp = "!f() { git add -A && git commit -m \"$@\" && git push;  }; f"
+	cm = "!f() { git add -A && git commit -m \"$@\";  }; f"
+[core]
+	editor = neovim
